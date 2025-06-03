@@ -1,0 +1,141 @@
+:root {
+  --accent: #ffce3e;
+  --dark: #1d3d3f;
+  --light: #fff;
+  --text: #333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text);
+  background: var(--light);
+}
+
+header.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f5f5f5;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: var(--dark);
+}
+
+.hero p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.btn-primary,
+.btn-secondary,
+form button {
+  padding: 0.7rem 1.5rem;
+  background: var(--dark);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: var(--accent);
+  color: var(--dark);
+}
+
+.hero-image {
+  max-width: 300px;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+}
+
+section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--dark);
+  color: #fff;
+}
+
+.value .icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.testimonial img {
+  max-width: 180px;
+  border-radius:445px;
+}
+
+.trusted .cards {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  gap: 2rem;
+}
+
+.pricing .plans {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  gap: 1rem;
+}
+
+.card {
+  background: #f5f5f5;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 220px;
+}
+
+.card.featured {
+  border: 3px solid var(--accent);
+  background-color: #1d3d3f;
+}
+
+.signup-form {
+  background: var(--dark);
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.signup-form img {
+  max-width: 200px;
+  border-radius:850px;
+}
+.testimonial{
+    background-color: #1d3d3f;
+    color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form input, form label {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+form input[type="text"], form input[type="email"] {
+  width: 250px;
+  
+}
